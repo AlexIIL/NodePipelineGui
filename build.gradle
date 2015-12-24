@@ -11,7 +11,7 @@ group = "alexiil.node.gui"
 version = "1.0"
 
 dependencies {
-    compile "com.google.guava:guava:17.0"
-    compile ""
-    testCompile 'junit:junit:4.12'
+    compile "alexiil.node.core:NodePipelineCore:1.0"
+    compile "alexiil.lwjgl:BasicLWJGL:1.0"
+    testCompile "junit:junit:4.12"
 }
