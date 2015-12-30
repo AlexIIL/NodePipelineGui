@@ -12,6 +12,7 @@ version = "1.0"
 
 dependencies {
     compile "alexiil.node.core:NodePipelineCore:1.0"
-    compile "alexiil.lwjgl:BasicLWJGL:1.0"
+    compile "javax.vecmath:vecmath:1.5.2"
+    compile "org.apache.commons:commons-lang3:3.4"
     testCompile "junit:junit:4.12"
 }
